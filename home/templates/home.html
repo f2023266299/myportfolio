@@ -1,0 +1,322 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}?v=2">   
+</head>
+
+<body>
+ <nav>
+
+    <h2 class="logo">Khalida Sakhi</h2>
+
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#skills">Skills</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#education">Education</a></li>
+        <li><a href="/#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+ <header class="hero">
+
+    <div class="hero-text">
+
+        <img src="{% static 'images/profile.jpg' %}"
+             alt="Khalida Sakhi"
+             class="profile-img">
+
+        <p class="intro">Hello, I am</p>
+
+        <h1>Khalida Sakhi</h1>
+
+        <h2>Computer Science Student & Aspiring Full Stack Developer</h2>
+
+        <p>
+            I am a 7th-semester Computer Science student with an interest
+            in web development, software development, data science and
+            artificial intelligence. I enjoy building projects, learning
+            new technologies and developing practical solutions.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="/#projects" class="btn">
+                View My Projects
+            </a>
+
+            <a href="/#contact" class="btn secondary-btn">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+<section id="skills" class="skills-section">
+
+    <p class="intro">What I Know</p>
+
+    <h1>My Skills</h1>
+
+    <div class="skills-container">
+
+    <div class="skill-card">
+        <h2>HTML & CSS</h2>
+        <p>Creating and designing responsive websites.</p>
+    </div>
+
+    <div class="skill-card">
+        <h2>Python</h2>
+        <p>Programming, problem solving and application development.</p>
+    </div>
+
+    <div class="skill-card">
+        <h2>Django</h2>
+        <p>Building dynamic web applications using Django.</p>
+    </div>
+
+    <div class="skill-card">
+        <h2>Data Science</h2>
+        <p>Learning data analysis and machine learning concepts.</p>
+    </div>
+
+    <div class="skill-card">
+        <h2>Database</h2>
+        <p>Understanding database concepts and data management.</p>
+    </div>
+
+    <div class="skill-card">
+        <h2>Machine Learning</h2>
+        <p>Studied fundamental machine learning concepts and techniques.</p>
+    </div>
+
+</div>
+
+</section>
+<section id="about" class="about-section">
+
+    <p class="intro">Get To Know Me</p>
+
+    <h1>About Me</h1>
+
+    <div class="about-container">
+
+        <div class="about-text">
+
+            <p>
+                I am a 7th-semester Computer Science student at the
+                University of Management and Technology (UMT), with an
+                interest in web development, software development,
+                data science and artificial intelligence.
+            </p>
+
+            <p>
+                Throughout my academic journey, I have worked on projects
+                using C++, SQL, Python, HTML, CSS and Django. These projects
+                have helped me build a practical understanding of
+                programming, databases, web development and problem solving.
+            </p>
+
+            <p>
+                I am continuously improving my technical skills and looking
+                for opportunities where I can gain practical experience,
+                contribute to real-world projects and grow as a Computer
+                Science professional.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  
+<section id="projects" class="projects-section">
+
+    <p class="intro">What I Have Built</p>
+
+    <h1>My Projects</h1>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h2>Student Management System</h2>
+            <p>
+                A C++ project developed to manage student records and
+                perform essential student management operations using
+                programming fundamentals.
+            </p>
+            <span>Programming Fundamentals • C++</span>
+        </div>
+
+
+        <div class="project-card">
+            <h2>Library Management System</h2>
+            <p>
+                An Object-Oriented Programming project designed to manage
+                library-related operations using classes, objects and
+                core OOP concepts.
+            </p>
+            <span>OOP • C++</span>
+        </div>
+
+
+        <div class="project-card">
+            <h2>Student Information Management System</h2>
+            <p>
+                A database project focused on organizing and managing
+                student information while applying database design and
+                SQL concepts.
+            </p>
+            <span>Database • SQL</span>
+        </div>
+
+
+        <div class="project-card">
+            <h2>Personal Portfolio Website</h2>
+            <p>
+                A responsive personal portfolio developed to present my
+                skills, education, projects and professional experience
+                in a clean and professional interface.
+            </p>
+            <span>HTML • CSS • Django</span>
+        </div>
+
+
+        <div class="project-card">
+            <h2>Fuel Consumption Prediction Model</h2>
+            <p>
+                A Data Science and Machine Learning project focused on
+                analyzing vehicle-related data and predicting fuel
+                consumption using Python.
+            </p>
+            <span>Data Science • ML • Python</span>
+        </div>
+
+
+        <div class="project-card">
+            <h2>MiniLang PP Project</h2>
+            <p>
+                A Compiler Construction project based on MiniLang,
+                applying concepts of language processing and compiler
+                design.
+            </p>
+            <span>Compiler Construction • MiniLang</span>
+        </div>
+
+    </div>
+
+</section>
+<section id="experience" class="experience-section">
+
+    <p class="intro">Virtual Experience</p>
+
+    <h1>Professional Experience</h1>
+
+    <div class="experience-container">
+
+        <div class="experience-card">
+            <h2>Deloitte Technology Job Simulation</h2>
+
+            <p>
+                Completed a virtual job simulation focused on technology-related
+                tasks and professional problem-solving.
+            </p>
+
+            <span>Technology • Job Simulation</span>
+        </div>
+
+        <div class="experience-card">
+            <h2>Deloitte Cyber Job Simulation</h2>
+
+            <p>
+                Completed a virtual job simulation focused on cybersecurity
+                concepts, analysis and professional tasks.
+            </p>
+
+            <span>Cybersecurity • Job Simulation</span>
+        </div>
+
+    </div>
+
+</section>
+<section id="education" class="education-section">
+
+    <p class="intro">My Academic Journey</p>
+
+    <h1>Education</h1>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <div class="education-icon">🎓</div>
+            <h2>BS Computer Science</h2>
+            <h3>University of Management and Technology (UMT)</h3>
+            <p>7th Semester — Currently Studying</p>
+        </div>
+
+        <div class="education-card">
+            <div class="education-icon">💻</div>
+            <h2>ICS</h2>
+            <h3>Aspire College, Basirpur</h3>
+            <p>Intermediate in Computer Science</p>
+        </div>
+
+        <div class="education-card">
+            <div class="education-icon">📚</div>
+            <h2>Matric</h2>
+            <h3>Government Girls High School, Basirpur</h3>
+            <p>Bio Science</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="contact" class="contact-section">
+
+    <p class="intro">Get In Touch</p>
+
+    <h1>Contact Me</h1>
+
+    <p class="contact-description">
+        If you would like to connect with me, discuss a project,
+        or explore an internship opportunity, feel free to reach out.
+    </p>
+
+    <div class="contact-info">
+
+        <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:khalidasakhi1@gmail.com">
+                khalidasakhi1@gmail.com
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:+923426452374">
+                +92 3426452374
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <strong>GitHub</strong>
+            <a href="https://github.com/f2023266299/Khalida_Sakhi" target="_blank">
+                github.com/f2023266299/Khalida_Sakhi
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
